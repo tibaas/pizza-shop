@@ -77,7 +77,11 @@ export function PopularProductsChart() {
                         >  
                         { data.map((_, index) => {
                             return (
-                                <Cell key={`cell-${index}`} fill={COLORS[index]} className="stroke-background hover:opacity-80 " />
+                                <Cell 
+                                key={`cell-${index}`} 
+                                fill={COLORS[index]} 
+                                className="stroke-background hover:opacity-80 " 
+                                />
                         )})}
                         </Pie>
                     </PieChart>

@@ -4,6 +4,7 @@ import colors from 'tailwindcss/colors'
 
 
 const data = [
+    
     {date: '10/12', revenue: 1200},
     {date: '11/12', revenue: 800},
     {date: '12/12', revenue: 900},
