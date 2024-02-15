@@ -105,8 +105,6 @@ export function OrderTableFilters() {
                 )
             }} />
 
-           
-
             <Button variant="secondary" type="submit" size="xs">
                 <Search className="h-4 w-4 mr-2" />
                 Filtrar resultados
